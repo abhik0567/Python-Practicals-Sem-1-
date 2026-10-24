@@ -228,8 +228,6 @@ d. Remove all occurrences of a character from a string.
 
 ### 💻 Code
 
-📄 File: [`q05_string_operations.py`](q05_string_operations.py)
-
 ```python
 """Q5: Operations on a string"""
 
@@ -260,21 +258,8 @@ print("d. After removing all occurrences:", s.replace(ch, ""))
 
 ### 🖥️ Output
 
-*Suggested test input: `banana, a, x`*
+<img width="1286" height="318" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/2e3c3419-5fa5-4c9f-ad5d-0b59e2299e47" />
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 5](screenshots/q05_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
-
----
 
 ## Question 6: Swap First n Characters
 
@@ -283,8 +268,6 @@ print("d. After removing all occurrences:", s.replace(ch, ""))
 Write a program to swap the first n characters of two strings.
 
 ### 💻 Code
-
-📄 File: [`q06_swap_first_n.py`](q06_swap_first_n.py)
 
 ```python
 """Q6: Swap the first n characters of two strings"""
@@ -302,19 +285,8 @@ print("Second string now:", new2)
 
 ### 🖥️ Output
 
-*Suggested test input: `hello, world, 2`*
+<img width="1278" height="336" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/2609c96b-1f58-4000-8679-bdbbfa80fc5c" />
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 6](screenshots/q06_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
 
 ---
 
@@ -325,8 +297,6 @@ print("Second string now:", new2)
 Write a function that accepts two strings and returns the indices of all the occurrences of the second string in the first string as a list. If the second string is not present in the first string then it should return -1.
 
 ### 💻 Code
-
-📄 File: [`q07_find_indices.py`](q07_find_indices.py)
 
 ```python
 """Q7: Indices of all occurrences of one string inside another"""
@@ -349,19 +319,8 @@ print("Result:", find_all(a, b))
 
 ### 🖥️ Output
 
-*Suggested test input: `abababa, aba`*
+<img width="1316" height="340" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/174e687c-2875-45b7-ac45-5b20d6d21c15" />
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 7](screenshots/q07_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
 
 ---
 
