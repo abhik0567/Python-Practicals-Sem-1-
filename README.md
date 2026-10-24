@@ -650,7 +650,7 @@ if __name__ == "__main__":
     print("Point 2 =", p2)
     print("Distance between them =", p1.distance(p2))
 
-----
+```
 
 ### 🖥️ Output
 
