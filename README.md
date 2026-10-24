@@ -1,3 +1,5 @@
+<img width="1274" height="270" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/b3d677c7-d877-416b-8e28-07ccc42f5329" />
+<img width="1274" height="270" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/095c5e7d-d1c0-4fcb-b9c2-9bc0fb467bd2" />
 # assignment
 ## 👤 Student Details
 
@@ -78,6 +80,8 @@ else:
 
 ### 🖥️ Output
 
+<img width="1274" height="270" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/de9277ad-5554-4f80-b3d7-ff94c0df1e09" />
+
 
 ---
 
@@ -135,6 +139,7 @@ print(f"c. First {n} primes:", first_n_primes(n))
 
 ### 🖥️ Output
 
+<img width="1312" height="271" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/928e84be-f509-4361-916c-c553cc62f8f9" />
 
 
 ---
