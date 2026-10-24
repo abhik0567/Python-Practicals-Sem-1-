@@ -336,8 +336,6 @@ b. list comprehension
 
 ### 💻 Code
 
-📄 File: [`q08_cubes_of_evens.py`](q08_cubes_of_evens.py)
-
 ```python
 """Q8: Cubes of only the even integers in a mixed list"""
 
@@ -368,19 +366,8 @@ print("b. Using list comprehension:", cubes2)
 
 ### 🖥️ Output
 
-*Suggested test input: `1 2 4 a 6.0 7 8`*
+<img width="1291" height="338" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/89a4bc22-ad58-4066-8a58-2c6c3a296951" />
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 8](screenshots/q08_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
 
 ---
 
