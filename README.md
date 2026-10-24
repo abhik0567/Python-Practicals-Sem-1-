@@ -44,6 +44,7 @@ Replace `q01_quadratic_roots.py` with any program file listed below.
 | 14 | [3D Point Class (Inheritance)](#question-14-3d-point-class-inheritance) | [`q14_point3d.py`](q14_point3d.py) |
 | 15 | [Name Validation with Exceptions](#question-15-name-validation-with-exceptions) | [`q15_name_exception.py`](q15_name_exception.py) |
 
+
 ---
 
 ## Question 1: Quadratic Equation Roots
