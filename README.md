@@ -3,11 +3,11 @@
 
 | | |
 |---|---|
-| **Name** | Your Name |
-| **Roll No.** | ______ |
-| **Class / Course** | ______ |
+| **Name** | ABHISHEK MAURYA |
+| **Roll No.** | 26570001 |
+| **Course** | Bsc Hons.(Computer Science) |
 | **Subject** | Python Programming |
-| **Submitted To** | ______ |
+| **Submitted To** | Mr. Vipin Rathi |
 
 ---
 
@@ -27,21 +27,21 @@ Replace `q01_quadratic_roots.py` with any program file listed below.
 
 | Q.No | Topic | Code File |
 |:---:|---|---|
-| 1 | [Quadratic Equation Roots](#question-1-quadratic-equation-roots) | [`q01_quadratic_roots.py`](q01_quadratic_roots.py) |
-| 2 | [Prime Numbers](#question-2-prime-numbers) | [`q02_prime_numbers.py`](q02_prime_numbers.py) |
-| 3 | [Pyramid and Reverse Pyramid](#question-3-pyramid-and-reverse-pyramid) | [`q03_pyramids.py`](q03_pyramids.py) |
-| 4 | [Character Checker](#question-4-character-checker) | [`q04_character_check.py`](q04_character_check.py) |
-| 5 | [String Operations](#question-5-string-operations) | [`q05_string_operations.py`](q05_string_operations.py) |
-| 6 | [Swap First n Characters](#question-6-swap-first-n-characters) | [`q06_swap_first_n.py`](q06_swap_first_n.py) |
-| 7 | [Indices of All Occurrences](#question-7-indices-of-all-occurrences) | [`q07_find_indices.py`](q07_find_indices.py) |
-| 8 | [Cubes of Even Integers](#question-8-cubes-of-even-integers) | [`q08_cubes_of_evens.py`](q08_cubes_of_evens.py) |
-| 9 | [File Handling](#question-9-file-handling) | [`q09_file_handling.py`](q09_file_handling.py) |
-| 10 | [Dictionary of Cubes](#question-10-dictionary-of-cubes) | [`q10_cube_dictionary.py`](q10_cube_dictionary.py) |
-| 11 | [Tuple Operations](#question-11-tuple-operations) | [`q11_tuple_operations.py`](q11_tuple_operations.py) |
-| 12 | [Employee Class](#question-12-employee-class) | [`q12_employee_class.py`](q12_employee_class.py) |
-| 13 | [2D Point Class](#question-13-2d-point-class) | [`q13_point2d.py`](q13_point2d.py) |
-| 14 | [3D Point Class (Inheritance)](#question-14-3d-point-class-inheritance) | [`q14_point3d.py`](q14_point3d.py) |
-| 15 | [Name Validation with Exceptions](#question-15-name-validation-with-exceptions) | [`q15_name_exception.py`](q15_name_exception.py) |
+| 1 | [Quadratic Equation Roots]
+| 2 | [Prime Numbers]
+| 3 | [Pyramid and Reverse Pyramid]
+| 4 | [Character Checker]
+| 5 | [String Operations]
+| 6 | [Swap First n Characters]
+| 7 | [Indices of All Occurrences]
+| 8 | [Cubes of Even Integers]
+| 9 | [File Handling]
+| 10 | [Dictionary of Cubes]
+| 11 | [Tuple Operations]
+| 12 | [Employee Class]
+| 13 | [2D Point Class]
+| 14 | [3D Point Class (Inheritance)]
+| 15 | [Name Validation with Exceptions]
 
 ---
 
@@ -52,8 +52,6 @@ Replace `q01_quadratic_roots.py` with any program file listed below.
 Write a program to find the roots of a quadratic equation.
 
 ### 💻 Code
-
-📄 File: [`q01_quadratic_roots.py`](q01_quadratic_roots.py)
 
 ```python
 """Q1: Find the roots of a quadratic equation  ax^2 + bx + c = 0"""
@@ -80,19 +78,6 @@ else:
 
 ### 🖥️ Output
 
-*Suggested test input: `1 -5 6`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 1](screenshots/q01_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
 
 ---
 
@@ -111,8 +96,6 @@ c. Generate first 'n' prime numbers
 *This program may be done using functions.*
 
 ### 💻 Code
-
-📄 File: [`q02_prime_numbers.py`](q02_prime_numbers.py)
 
 ```python
 """Q2: Prime number operations using functions"""
@@ -152,19 +135,7 @@ print(f"c. First {n} primes:", first_n_primes(n))
 
 ### 🖥️ Output
 
-*Suggested test input: `10`*
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 2](screenshots/q02_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
 
 ---
 
