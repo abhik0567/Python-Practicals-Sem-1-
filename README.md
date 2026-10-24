@@ -1,6 +1,5 @@
-<img width="1274" height="270" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/b3d677c7-d877-416b-8e28-07ccc42f5329" />
-<img width="1274" height="270" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/095c5e7d-d1c0-4fcb-b9c2-9bc0fb467bd2" />
-# assignment
+
+# PYTHON PRACTICALS
 ## 👤 Student Details
 
 | | |
@@ -152,8 +151,6 @@ Write a program to create a pyramid of the character '*' and a reverse pyramid.
 
 ### 💻 Code
 
-📄 File: [`q03_pyramids.py`](q03_pyramids.py)
-
 ```python
 """Q3: Pyramid and reverse pyramid of '*'"""
 
@@ -170,19 +167,7 @@ for i in range(n, 0, -1):
 
 ### 🖥️ Output
 
-*Suggested test input: `5`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 3](screenshots/q03_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1251" height="343" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/b40712d7-07a3-4d53-8824-9527eedeee03" />
 
 ---
 
@@ -199,8 +184,6 @@ b. If the character is a letter, print whether the letter is uppercase or lowerc
 c. If the character is a numeric digit, print its name in text (e.g., if input is 9, output is NINE).
 
 ### 💻 Code
-
-📄 File: [`q04_character_check.py`](q04_character_check.py)
 
 ```python
 """Q4: Check the type of a character"""
@@ -225,17 +208,7 @@ else:
 
 *Suggested test input: `9`*
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 4](screenshots/q04_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1242" height="289" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/74a4cb49-5528-42bc-a735-1d2d97416b33" />
 
 ---
 
