@@ -28,7 +28,7 @@ Replace `q01_quadratic_roots.py` with any program file listed below.
 
 | Q.No | Topic | Code File |
 |:---:|---|---|
-| 1 | [Quadratic Equation Roots](#question-1-quadratic-equation-roots) | [`q01_quadratic_roots.py`](q01_quadratic_roots.py) |
+| 1 | [Quadratic Equation Roots](#question-1-quadratic-equation-roots) | 
 | 2 | [Prime Numbers](#question-2-prime-numbers) | [`q02_prime_numbers.py`](q02_prime_numbers.py) |
 | 3 | [Pyramid and Reverse Pyramid](#question-3-pyramid-and-reverse-pyramid) | [`q03_pyramids.py`](q03_pyramids.py) |
 | 4 | [Character Checker](#question-4-character-checker) | [`q04_character_check.py`](q04_character_check.py) |
