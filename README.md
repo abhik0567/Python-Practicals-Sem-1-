@@ -392,55 +392,72 @@ d. Copy even lines of the file to a file named 'File1' and odd lines to another 
 ```python
 """Q9: File handling operations"""
 
-filename = input("Enter file name (press Enter for sample.txt): ") or "sample.txt"
-
-with open(filename, "r") as f:
-    text = f.read()
-with open(filename, "r") as f:
-    lines = f.readlines()
-
-# a. Count characters, words, lines
-print("a. Characters:", len(text))
-print("   Words     :", len(text.split()))
-print("   Lines     :", len(lines))
-
-# b. Frequency of each character (dictionary)
-freq = {}
+f = open(file_name, "w")
+f.write("Python is easy to learn\n")
+f.write("It is used in many fields\n")
+f.write("Files are simple to read\n")
+f.write("Practice makes you perfect\n")
+f.write("Keep coding every day\n")
+f.close()
+ 
+# ---------- Step 2: Read the file ----------
+f = open(file_name, "r")
+text = f.read()          # whole file as one string
+f.close()
+ 
+lines = text.split("\n")
+lines.pop()              # remove the empty item left after the last line
+words = text.split()     # list of all words
+ 
+# ---------- a. Count characters, words and lines ----------
+print("a. Total characters:", len(text))
+print("   Total words     :", len(words))
+print("   Total lines     :", len(lines))
+ 
+# ---------- b. Frequency of each character (using a dictionary) ----------
+count = {}
 for ch in text:
-    freq[ch] = freq.get(ch, 0) + 1
-print("b. Character frequency:")
-for ch, n in freq.items():
-    print(f"   {ch!r}: {n}")
-
-# c. Words in reverse order
-print("c. Words in reverse order:")
-print("  ", " ".join(reversed(text.split())))
-
-# d. Even lines -> File1, odd lines -> File2
-with open("File1", "w") as f1, open("File2", "w") as f2:
-    for number, line in enumerate(lines, start=1):
-        if number % 2 == 0:
-            f1.write(line)
+    if ch != "\n":                    # ignore the 'new line' symbol
+        if ch in count:
+            count[ch] = count[ch] + 1   # seen before: add 1
         else:
-            f2.write(line)
-print("d. Even lines saved in 'File1', odd lines saved in 'File2'.")
+            count[ch] = 1               # first time: start at 1
+print("\nb. Character frequency:")
+print(count)
+ 
+# ---------- c. Print the words in reverse order ----------
+words.reverse()
+print("\nc. Words in reverse order:")
+print(" ".join(words))
+ 
+# ---------- d. Even lines -> File1, Odd lines -> File2 ----------
+file1 = open("File1", "w")
+file2 = open("File2", "w")
+ 
+line_no = 1
+for line in lines:
+    if line_no % 2 == 0:              # even line number
+        file1.write(line + "\n")
+    else:                             # odd line number
+        file2.write(line + "\n")
+    line_no = line_no + 1
+ 
+file1.close()
+file2.close()
+ 
+print("\nd. Even lines were copied to File1:")
+print(open("File1").read())
+print("   Odd lines were copied to File2:")
+print(open("File2").read())
+ 
+
 ```
 
 ### 🖥️ Output
 
-*Suggested test input: `press Enter to use sample.txt`*
+<img width="1331" height="339" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/491708a7-a6bd-4f89-b5eb-2fd18e4fa273" />
 
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 9](screenshots/q09_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1317" height="322" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/09687365-a683-4dd3-b961-0568b6b5548a" />
 
 ---
 
