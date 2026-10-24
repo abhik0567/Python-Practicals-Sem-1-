@@ -25,7 +25,7 @@ Replace `q01_quadratic_roots.py` with any program file listed below.
 
 ## 📑 Table of Contents
 
-| Q.No | Topic | Code File |
+| Q.No | Topic | 
 |:---:|---|---|
 | 1 | [Quadratic Equation Roots]
 | 2 | [Prime Numbers]
