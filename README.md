@@ -1,4 +1,4 @@
-
+++++++++++++++++++++++
 # PYTHON PRACTICALS
 ## 👤 Student Details
 
@@ -452,8 +452,6 @@ Write a function that prints a dictionary where the keys are numbers between 1 a
 
 ### 💻 Code
 
-📄 File: [`q10_cube_dictionary.py`](q10_cube_dictionary.py)
-
 ```python
 """Q10: Dictionary of numbers 1-5 and their cubes"""
 
@@ -470,19 +468,7 @@ print_cubes()
 
 ### 🖥️ Output
 
-*Suggested test input: `no input needed`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 10](screenshots/q10_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1294" height="293" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/74393b72-144f-425e-bc13-6cb8aef0dbbd" />
 
 ---
 
@@ -501,8 +487,6 @@ c. Concatenate a tuple t2=(11,13,15) with t1.
 d. Return maximum and minimum value from this tuple.
 
 ### 💻 Code
-
-📄 File: [`q11_tuple_operations.py`](q11_tuple_operations.py)
 
 ```python
 """Q11: Tuple operations"""
@@ -528,19 +512,7 @@ print("d. Maximum:", max(t1), "| Minimum:", min(t1))
 
 ### 🖥️ Output
 
-*Suggested test input: `no input needed`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 11](screenshots/q11_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1302" height="347" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/af32353b-e787-4470-84db-25e3e9fb2e4e" />
 
 ---
 
@@ -563,8 +535,6 @@ c. `__del__` function to decrease the number of objects created for the class.
 d. `__str__` function to display the details of an employee along with the salary of an employee in a proper format.
 
 ### 💻 Code
-
-📄 File: [`q12_employee_class.py`](q12_employee_class.py)
 
 ```python
 """Q12: Employee class"""
@@ -618,19 +588,10 @@ Employee(103, "Test", "HR", -100, 500, 500)
 
 ### 🖥️ Output
 
-*Suggested test input: `no input needed`*
+<img width="1360" height="271" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/f008d6f0-dc24-41f1-9383-d3367350f696" />
 
-<!-- Replace the file name below with your screenshot -->
+<img width="1297" height="332" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/25182619-30da-443b-bcfc-aaf0b3128a72" />
 
-![Output of Question 12](screenshots/q12_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
 
 ---
 
@@ -698,8 +659,6 @@ Inherit the above class to create a "3DPoint" with additional attribute z. Overr
 
 ### 💻 Code
 
-📄 File: [`q14_point3d.py`](q14_point3d.py)
-
 ```python
 """Q14: 3D point class inherited from Point2D"""
 
@@ -729,19 +688,7 @@ print("Distance:", p1.distance(p2))
 
 ### 🖥️ Output
 
-*Suggested test input: `no input needed`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 14](screenshots/q14_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1305" height="322" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/3222687a-9551-49cd-885b-6dbddeeb6cbc" />
 
 ---
 
@@ -752,8 +699,6 @@ print("Distance:", p1.distance(p2))
 Write a program to accept a name from a user. Raise and handle appropriate exception(s) if the text entered by the user contains digits and/or special characters.
 
 ### 💻 Code
-
-📄 File: [`q15_name_exception.py`](q15_name_exception.py)
 
 ```python
 """Q15: Validate a name using exceptions"""
@@ -783,52 +728,7 @@ except InvalidNameError as e:
 
 ### 🖥️ Output
 
-*Suggested test input: `Ravi Kumar  /  Ra#vi2`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 15](screenshots/q15_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1317" height="281" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/e71681d5-da3c-4105-ae14-2ec5a314a1ea" />
 
 ---
 
-## 📁 Repository Structure
-
-```
-python-practical/
-├── README.md
-├── sample.txt                 # input file used in Q9
-├── screenshots/               # put output screenshots here (q01_output.png ... q15_output.png)
-├── q01_quadratic_roots.py
-├── q02_prime_numbers.py
-├── q03_pyramids.py
-├── q04_character_check.py
-├── q05_string_operations.py
-├── q06_swap_first_n.py
-├── q07_find_indices.py
-├── q08_cubes_of_evens.py
-├── q09_file_handling.py
-├── q10_cube_dictionary.py
-├── q11_tuple_operations.py
-├── q12_employee_class.py
-├── q13_point2d.py
-├── q14_point3d.py
-└── q15_name_exception.py
-```
-
-## 📸 How to Add Your Output Screenshots
-
-1. Run the program and take a screenshot of the output.
-2. Save it inside the `screenshots/` folder as `q01_output.png`, `q02_output.png` ... `q15_output.png`.
-3. Commit and push. The images appear automatically in this README.
-
----
-
-<p align="center">Made with ❤️ using Python · ⭐ Star this repo if it helped you!</p>
