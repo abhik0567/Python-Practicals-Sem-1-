@@ -650,6 +650,8 @@ if __name__ == "__main__":
     print("Point 2 =", p2)
     print("Distance between them =", p1.distance(p2))
 
+----
+
 ### 🖥️ Output
 
 <img width="1305" height="312" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/bde1b1cb-26aa-4bff-a3b2-1e2beb24391a" />
