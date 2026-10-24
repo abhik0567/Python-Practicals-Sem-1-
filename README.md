@@ -12,18 +12,6 @@
 
 ---
 
-## ⚙️ How to Run
-
-```bash
-git clone https://github.com/<your-username>/python-practical.git
-cd python-practical
-python q01_quadratic_roots.py
-```
-
-Replace `q01_quadratic_roots.py` with any program file listed below.
-
----
-
 ## 📑 Table of Contents
 
 | Q.No | Topic | 
