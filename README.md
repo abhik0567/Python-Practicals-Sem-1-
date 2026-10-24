@@ -387,8 +387,6 @@ d. Copy even lines of the file to a file named 'File1' and odd lines to another 
 
 ### 💻 Code
 
-📄 File: [`q09_file_handling.py`](q09_file_handling.py)
-
 ```python
 """Q9: File handling operations"""
 
@@ -622,47 +620,39 @@ Write a program to define a class "2DPoint" with coordinates x and y as attribut
 
 ### 💻 Code
 
-📄 File: [`q13_point2d.py`](q13_point2d.py)
-
 ```python
 """Q13: 2D point class (named Point2D because names can't start with a digit)"""
 
-
 class Point2D:
-    def __init__(self, x=0, y=0):
+    # This runs when we create a point. It stores x and y.
+    def __init__(self, x, y):
         self.x = x
         self.y = y
 
+    # This decides what print(point) will show.
     def __str__(self):
-        return f"({self.x}, {self.y})"
+        return "(" + str(self.x) + ", " + str(self.y) + ")"
 
+    # Distance between this point and another point.
+    # Formula: square root of ((x2 - x1)^2 + (y2 - y1)^2)
     def distance(self, other):
-        return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
+        dx = self.x - other.x
+        dy = self.y - other.y
+        return (dx ** 2 + dy ** 2) ** 0.5
 
 
+# ---------- Main part: create two points and use them ----------
 if __name__ == "__main__":
     p1 = Point2D(1, 2)
     p2 = Point2D(4, 6)
-    print("Point 1:", p1)
-    print("Point 2:", p2)
-    print("Distance:", p1.distance(p2))
-```
+
+    print("Point 1 =", p1)
+    print("Point 2 =", p2)
+    print("Distance between them =", p1.distance(p2))
 
 ### 🖥️ Output
 
-*Suggested test input: `no input needed`*
-
-<!-- Replace the file name below with your screenshot -->
-
-![Output of Question 13](screenshots/q13_output.png)
-
-**Text output (optional):**
-
-```text
-(paste your output here)
-```
-
-[⬆ Back to top](#-table-of-contents)
+<img width="1305" height="312" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/bde1b1cb-26aa-4bff-a3b2-1e2beb24391a" />
 
 ---
 
